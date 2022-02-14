@@ -21,11 +21,6 @@
             else {
                 $button_checked = "";
             }
-            // $html_buttons .= '<h3>' . $row["name"] . ' - GPIO ' . $row["gpio"] . ' </h3>
-            // <label class="switch"><input type="checkbox" onchange="updateOutput(this)" id="' . $row["id"] . '" ' . $button_checked . '>
-            // <span class="slider"></span></label>';
-            // $html_state .= $row["state"];
-            // $html_delete .= '<h3> <i><a onclick="deleteOutput(this)" href="javascript:void(0);" id="'. $row["id"] . '">Delete</a></i></h3>';
 
           $html_grid .= '<div class="grid-item"><h3>' . $row["name"] . ' - GPIO ' . $row["gpio"] . ' </h3>
             <label class="switch"><input type="checkbox" onchange="updateOutput(this)" id="' . $row["id"] . '" ' . $button_checked . '>
@@ -41,7 +36,7 @@
     <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="esp_style.css">
+        <link rel="stylesheet"  href="esp_style.css">
         <title>ESP Output Control</title>
     </head>
 

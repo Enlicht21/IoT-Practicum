@@ -1,4 +1,3 @@
-body{
   .item1 { grid-area: header; }
   .item2 { grid-area: form; }
   .item3 { grid-area: switch; }
@@ -116,4 +115,3 @@ body{
   input[type=submit]:hover {
       background-color: #005a4c;
   }
-}
